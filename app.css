@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+form{
+    width: 70%;
+    margin: 0  auto;
+    padding: 15px;
+    border:1px solid #ddd;
+}
+form .group-input{
+    padding: 8px 0;
+}
+input{
+    height: 40px;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"]
+{
+    height: 40px;
+    width: 100%;
+}
+.group-input-btn{
+    text-align: right;
+}
+input[type="submit"],
+input[type="button"],
+button
+{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    min-width: 300px;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover
+{
+    background-color: aqua;
+    cursor: pointer;
+
+}

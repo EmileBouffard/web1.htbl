@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <form >
+        <div class="group-input">
+            <label for="age">Age</label>
+            <input id="age" name="age" type="number" required min="0" max="120">
+        </div>
+
+        <div class="group-input">
+            <label for="courriel">Courriel</label>
+            <input id="email" name="email" type="email">
+        </div>
+
+        <div class="group-input">
+            <input type="radio" id="homme" name="sexe" value="h">
+            <label for="homme">H</label>           
+            <br>
+            <input type="radio"id="femme" name="sexe" value="f">
+            <label for="femme">F</label>           
+        </div>
+
+        <div class="group-input">
+            <input type="checkbox" id="cuisine" name="interet" value="cuisine">
+            <label for="cuisine">Cuisine</label>          
+            <br>
+            <input type="checkbox"id="jardinage" name="interet" value="jardinage">
+            <label for="jardinage">Jardinage</label>            
+        </div>
+
+        <div class="group-input ">
+            <label >Jeux Vidéo préféré</label>
+            <select id="jeu-vidéo" name="jeu-vidéo">
+                <option value="1">Elden Ring</option>
+                <option value="2">Conan Exils</option>
+                <option value="3">Phasmophobia</option>
+            </select>
+        </div>
+
+        <div class="group-input group-input-btn">
+            <input type="submit">
+            <button>Cancel</button>
+            <input type="button" value="un autre bouton">
+        </div>
+    </form>    
+</body>
+</html>
